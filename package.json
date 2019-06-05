@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^0.7.0",
-    "@glimmer/component": "^0.14.0-alpha.3",
+    "@glimmer/component": "^0.14.0-alpha.7",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.2.20",
     "ember-cli": "github:ember-cli/ember-cli#316b6030004891cfec171742dcba7966067ac860",
