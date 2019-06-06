@@ -13,6 +13,7 @@ module('Unit | @tracked', function(hooks) {
 
     const subject = new Subject();
 
+    // Fails in IE11.
     assert.strictEqual(subject.property, 'foo');
   });
 });

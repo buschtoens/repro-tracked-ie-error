@@ -23,6 +23,7 @@ module('Integration | @tracked', function(hooks) {
       uninitializedProp = {{this.subject.uninitializedProp}};
     `);
 
+    // Only this first assertion fails in IE11, the rest passes.
     assert.ok(this.element.textContent.includes('initializedProp = foo;'));
     assert.ok(this.element.textContent.includes('uninitializedProp = ;'));
 
